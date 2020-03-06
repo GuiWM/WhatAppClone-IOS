@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2B5FF62412C644003DE6D9 /* ContatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5FF52412C644003DE6D9 /* ContatoTableViewCell.swift */; };
+		6F2B5FF82412C7B9003DE6D9 /* ContatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5FF72412C7B9003DE6D9 /* ContatosViewController.swift */; };
+		6F52F0FD240090CA008B0AD3 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F52F0FC240090CA008B0AD3 /* AjustesViewController.swift */; };
 		6F970A6B23FF1D98003C4062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F970A6A23FF1D98003C4062 /* AppDelegate.swift */; };
 		6F970A6D23FF1D98003C4062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F970A6C23FF1D98003C4062 /* SceneDelegate.swift */; };
-		6F970A6F23FF1D98003C4062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F970A6E23FF1D98003C4062 /* ViewController.swift */; };
 		6F970A7223FF1D98003C4062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F970A7023FF1D98003C4062 /* Main.storyboard */; };
 		6F970A7423FF1D9A003C4062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F970A7323FF1D9A003C4062 /* Assets.xcassets */; };
 		6F970A7723FF1D9A003C4062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F970A7523FF1D9A003C4062 /* LaunchScreen.storyboard */; };
+		6F970A7F23FF1E6B003C4062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F970A7E23FF1E6B003C4062 /* GoogleService-Info.plist */; };
+		6F970A8323FF4012003C4062 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F970A8223FF4012003C4062 /* LoginViewController.swift */; };
+		6F970A8523FF4022003C4062 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F970A8423FF4022003C4062 /* CadastroViewController.swift */; };
+		CB6A81B1760A548452230D68 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21E5B40CA07F29B944DABD9 /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F2B5FF52412C644003DE6D9 /* ContatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoTableViewCell.swift; sourceTree = "<group>"; };
+		6F2B5FF72412C7B9003DE6D9 /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
+		6F52F0FC240090CA008B0AD3 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		6F970A6723FF1D98003C4062 /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F970A6A23FF1D98003C4062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F970A6C23FF1D98003C4062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F970A6E23FF1D98003C4062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F970A7123FF1D98003C4062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F970A7323FF1D9A003C4062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F970A7623FF1D9A003C4062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F970A7823FF1D9A003C4062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F970A7E23FF1E6B003C4062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6F970A8223FF4012003C4062 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6F970A8423FF4022003C4062 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		BE363B59BFE509ABC556BF39 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED2E21DCC7C0EEB51E696AC0 /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F21E5B40CA07F29B944DABD9 /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6A81B1760A548452230D68 /* Pods_WhatsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2B5FF42412C61E003DE6D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B5FF52412C644003DE6D9 /* ContatoTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6F52F0FB240090B5008B0AD3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6F52F0FC240090CA008B0AD3 /* AjustesViewController.swift */,
+				6F2B5FF72412C7B9003DE6D9 /* ContatosViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		6F970A5E23FF1D98003C4062 = {
 			isa = PBXGroup;
 			children = (
 				6F970A6923FF1D98003C4062 /* WhatsApp */,
 				6F970A6823FF1D98003C4062 /* Products */,
+				759740C774C3169A984BB7F0 /* Pods */,
+				C304EF252ED240ADC85FA68D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,52 @@
 		6F970A6923FF1D98003C4062 /* WhatsApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F2B5FF42412C61E003DE6D9 /* TableViewCell */,
+				6F970A8123FF3FB5003C4062 /* Models */,
+				6F970A8023FF3FAD003C4062 /* ViewController */,
 				6F970A6A23FF1D98003C4062 /* AppDelegate.swift */,
 				6F970A6C23FF1D98003C4062 /* SceneDelegate.swift */,
-				6F970A6E23FF1D98003C4062 /* ViewController.swift */,
 				6F970A7023FF1D98003C4062 /* Main.storyboard */,
 				6F970A7323FF1D9A003C4062 /* Assets.xcassets */,
 				6F970A7523FF1D9A003C4062 /* LaunchScreen.storyboard */,
 				6F970A7823FF1D9A003C4062 /* Info.plist */,
+				6F970A7E23FF1E6B003C4062 /* GoogleService-Info.plist */,
 			);
 			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		6F970A8023FF3FAD003C4062 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F52F0FB240090B5008B0AD3 /* Tabs */,
+				6F970A8223FF4012003C4062 /* LoginViewController.swift */,
+				6F970A8423FF4022003C4062 /* CadastroViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6F970A8123FF3FB5003C4062 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		759740C774C3169A984BB7F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E21DCC7C0EEB51E696AC0 /* Pods-WhatsApp.debug.xcconfig */,
+				BE363B59BFE509ABC556BF39 /* Pods-WhatsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C304EF252ED240ADC85FA68D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21E5B40CA07F29B944DABD9 /* Pods_WhatsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F970A7B23FF1D9A003C4062 /* Build configuration list for PBXNativeTarget "WhatsApp" */;
 			buildPhases = (
+				61F1E7BC288CDD8EC3D1B975 /* [CP] Check Pods Manifest.lock */,
 				6F970A6323FF1D98003C4062 /* Sources */,
 				6F970A6423FF1D98003C4062 /* Frameworks */,
 				6F970A6523FF1D98003C4062 /* Resources */,
+				2221BFFA37AD9787A866C477 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F970A7723FF1D9A003C4062 /* LaunchScreen.storyboard in Resources */,
+				6F970A7F23FF1E6B003C4062 /* GoogleService-Info.plist in Resources */,
 				6F970A7423FF1D9A003C4062 /* Assets.xcassets in Resources */,
 				6F970A7223FF1D98003C4062 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +207,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2221BFFA37AD9787A866C477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F1E7BC288CDD8EC3D1B975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F970A6323FF1D98003C4062 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F970A6F23FF1D98003C4062 /* ViewController.swift in Sources */,
+				6F2B5FF62412C644003DE6D9 /* ContatoTableViewCell.swift in Sources */,
+				6F2B5FF82412C7B9003DE6D9 /* ContatosViewController.swift in Sources */,
+				6F970A8323FF4012003C4062 /* LoginViewController.swift in Sources */,
+				6F52F0FD240090CA008B0AD3 /* AjustesViewController.swift in Sources */,
 				6F970A6B23FF1D98003C4062 /* AppDelegate.swift in Sources */,
 				6F970A6D23FF1D98003C4062 /* SceneDelegate.swift in Sources */,
+				6F970A8523FF4022003C4062 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		6F970A7C23FF1D9A003C4062 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2E21DCC7C0EEB51E696AC0 /* Pods-WhatsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +421,7 @@
 		};
 		6F970A7D23FF1D9A003C4062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE363B59BFE509ABC556BF39 /* Pods-WhatsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
