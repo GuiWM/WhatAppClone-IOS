@@ -1,3 +1,4 @@
 Pods/
-WhatsApp/.plist
+WhatsApp/*.plist
 *.plist
+**/plist
