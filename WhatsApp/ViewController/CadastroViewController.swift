@@ -39,7 +39,7 @@ class CadastroViewController: UIViewController {
                             //salvar dados do usuario
                             if let idUsuario = dadosResultado?.user.uid {
                                 
-                                self.firestore.collection("usuarios").document(idUsuario).setData(["nome": nome, "email": email])
+                                self.firestore.collection("usuarios").document(idUsuario).setData(["nome": nome, "email": email, "id": idUsuario])
                                 
                             }
                             
